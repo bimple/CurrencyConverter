@@ -9,7 +9,6 @@ import java.util.List;
 public class FileUtility {
 
     public static void readCurrencyFromFile(String fileName) {
-        FileDialog fileDialog = new FileDialog();
         XMLDecoder decoder = null;
         try {
             decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream(fileName)));
