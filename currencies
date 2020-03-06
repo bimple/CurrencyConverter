@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.6" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Currency">
+    <void property="currencyName">
+     <string>USD</string>
+    </void>
+    <void property="exchangeRate">
+     <double>1.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Currency">
+    <void property="currencyName">
+     <string>ISK</string>
+    </void>
+    <void property="exchangeRate">
+     <double>126.924</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Currency">
+    <void property="currencyName">
+     <string>AAA</string>
+    </void>
+    <void property="exchangeRate">
+     <double>1.33572</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Currency">
+    <void property="currencyName">
+     <string>BBB</string>
+    </void>
+    <void property="exchangeRate">
+     <double>1.33572</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
